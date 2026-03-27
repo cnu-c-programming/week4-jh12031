@@ -1,4 +1,4 @@
 #include <stdio.h>
-int foo(int a, int b) {
+static int foo(int a, int b) {
     return a+b;
 }
