@@ -9,8 +9,8 @@ int main() {
         char ch = chars[i];
         printf("%c - alpha:%d digit:%d upper:%c lower:%c\n",
             ch,
-            isalpha(ch) != 0 ? 1 : 0,
-            isdigit(ch) != 0 ? 1 : 0,
+            isalpha(ch),
+            isdigit(ch),
             toupper(ch),
             tolower(ch));
     }
