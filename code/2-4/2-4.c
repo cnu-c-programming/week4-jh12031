@@ -7,7 +7,7 @@ int main() {
     
     for (int i=0; i < n; i++) {
         char ch = chars[i];
-        printf("%c alpha:%d digit:%d upper:%c lower:%c\n",
+        printf("%c - alpha:%d digit:%d upper:%c lower:%c\n",
             ch,
             isalpha(ch) != 0 ? 1 : 0,
             isdigit(ch) != 0 ? 1 : 0,
